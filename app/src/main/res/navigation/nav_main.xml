@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/blog_destination">
+
+    <fragment
+        android:id="@+id/blog_destination"
+        android:name="xyz.tasikcode.tasikcodeapp.blog.BlogFragment"
+        android:label="fragment_blog"
+        tools:layout="@layout/fragment_blog" />
+    <fragment
+        android:id="@+id/event_destination"
+        android:name="xyz.tasikcode.tasikcodeapp.event.EventFragment"
+        android:label="fragment_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/baraya_destination"
+        android:name="xyz.tasikcode.tasikcodeapp.baraya.BarayaFragment"
+        android:label="fragment_baraya"
+        tools:layout="@layout/fragment_baraya" />
+</navigation>
