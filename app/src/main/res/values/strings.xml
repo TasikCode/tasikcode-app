@@ -5,4 +5,11 @@
     <string name="baraya">Baraya</string>
 
     <string name="hello_blank_fragment">Coming Soon!</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="categories">Categories</string>
+    <string name="product">Product</string>
+    <string name="events">Events</string>
+    <string name="other">Other</string>
+    <string name="search_blog_here">Search blog here...</string>
 </resources>
