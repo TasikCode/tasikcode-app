@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.layout_blog_content.view.*
 import xyz.tasikcode.tasikcodeapp.R
 import xyz.tasikcode.tasikcodeapp.databinding.FragmentBlogBinding
 
@@ -34,12 +35,12 @@ class BlogFragment : Fragment() {
     }
 
     private fun setupToolbar() {
-        binding.tbBlog.setNavigationIcon(R.drawable.ic_menu_white_24dp)
+        binding.icBlogContent.tbBlog.setNavigationIcon(R.drawable.ic_menu_white_24dp)
         val toggle =
             ActionBarDrawerToggle(
                 requireActivity(),
                 binding.dlBlog,
-                binding.tbBlog,
+                binding.icBlogContent.tbBlog,
                 R.string.open,
                 R.string.close
             )
